@@ -38,6 +38,16 @@ public:
 			Expand();
 		}
 
+		for (i = 0; i < m_numElements; i++)
+		{
+			if (m_array[i] == val)
+			{
+				cout << "\n\tDuplicate detected" << endl;
+				exit(0);
+				break;
+			}
+		}
+
 		int i, k;
 		for (i = 0; i < m_numElements; i++)
 		{

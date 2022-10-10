@@ -8,6 +8,7 @@ int main()
 	OrderedArray<int> arr(3);
 	arr.push(1);
 	//OrderedArray<int> array(3);
+	int arr[2];
 
 	//array.push(3);
 	//array.push(53);
