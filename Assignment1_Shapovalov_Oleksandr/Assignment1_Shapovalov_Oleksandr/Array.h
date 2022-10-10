@@ -20,7 +20,7 @@ private:
 			return false;
 		}
 
-		T* temp = new T[m_maxSize + m_growSize];
+		T* temp = new T[m_maxSize * m_maxSize];
 		assert(temp != nullptr);
 
 		memcpy(temp, m_array, sizeof(T) * m_maxSize);
@@ -30,7 +30,7 @@ private:
 		m_array = temp;
 		temp = nullptr;
 
-		m_maxSize += m_growSize;
+		m_maxSize += m_maxSize;
 
 		return true;
 	}
