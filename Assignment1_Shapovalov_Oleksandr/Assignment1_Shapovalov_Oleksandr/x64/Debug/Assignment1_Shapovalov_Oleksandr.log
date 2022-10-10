@@ -9,7 +9,6 @@ C:\Users\Пользователь\source\repos\GAME2001_Assignments\Assignment1_
 C:\Users\Пользователь\source\repos\GAME2001_Assignments\Assignment1_Shapovalov_Oleksandr\Assignment1_Shapovalov_Oleksandr\OrderedArray.h(43,16): error C3861: 'i': identifier not found
 C:\Users\Пользователь\source\repos\GAME2001_Assignments\Assignment1_Shapovalov_Oleksandr\Assignment1_Shapovalov_Oleksandr\OrderedArray.h(41,8): error C2065: 'i': undeclared identifier
 C:\Users\Пользователь\source\repos\GAME2001_Assignments\Assignment1_Shapovalov_Oleksandr\Assignment1_Shapovalov_Oleksandr\OrderedArray.h(43,16): error C2065: 'i': undeclared identifier
-C:\Users\Пользователь\source\repos\GAME2001_Assignments\Assignment1_Shapovalov_Oleksandr\Assignment1_Shapovalov_Oleksandr\main.cpp(11,6): error C2040: 'arr': 'int [2]' differs in levels of indirection from 'OrderedArray<int>'
   OrderedArray.cpp
 C:\Users\Пользователь\source\repos\GAME2001_Assignments\Assignment1_Shapovalov_Oleksandr\Assignment1_Shapovalov_Oleksandr\OrderedArray.h(41,8): error C3861: 'i': identifier not found
 C:\Users\Пользователь\source\repos\GAME2001_Assignments\Assignment1_Shapovalov_Oleksandr\Assignment1_Shapovalov_Oleksandr\OrderedArray.h(106): message : see reference to class template instantiation 'OrderedArray<T>' being compiled

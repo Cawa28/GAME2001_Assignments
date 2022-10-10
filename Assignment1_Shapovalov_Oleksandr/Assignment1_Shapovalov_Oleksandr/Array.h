@@ -13,7 +13,7 @@ private:
 	int m_growSize;
 	int m_numElements;
 
-	bool Expand() // update needed
+	bool Expand() 
 	{
 		if (m_growSize <= 0)
 		{

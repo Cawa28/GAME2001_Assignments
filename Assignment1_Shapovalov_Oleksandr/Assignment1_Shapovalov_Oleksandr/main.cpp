@@ -5,39 +5,26 @@ using namespace std;
 
 int main()
 {
-	OrderedArray<int> arr(3);
-	arr.push(1);
-	//OrderedArray<int> array(3);
-	int arr[2];
+	//OrderedArray<int> array(4);
+	//UnorderedArray<int> array(455);
+	OrderedArray<int> arr(7);
+	arr.GetSize();
+	arr.push(4);
+	arr.push(23);
+	arr.push(93);
+	arr.push(45);
+	arr.push(17);
+	arr.push(15);
+	arr.push(32);
+	arr.push(96);
+	arr.push(111);
+	arr.search(45);
+	arr.remove(7);
 
-	//array.push(3);
-	//array.push(53);
-	//array.push(83);
-	//array.push(23); // Should expand here
-	//array.push(82); // Should expand here
-	//// 3, 23, 53, 82, 83
-	//array[2] = 112; // causes issues with ordered array as this changed value won't be ordered
-	//// 3, 23, 112, 82, 83
-	//array.pop();
-	//// 3, 23, 112, 82
-	//array.remove(2);
-	//// 3, 23, 82
-	//cout << "Ordered array contents: ";
-
-	//for (int i = 0; i < array.GetSize(); i++)
-	//{
-	//	cout << array[i] << " ";
-	//}
-
-	//cout << endl;
-
-
-	//cout << "Serach for 53 was found at index: ";
-	//cout << array.search(53) << endl; // -1
-	//cout << "Serach for 23 was found at index: ";
-	//cout << array.search(23) << endl; // 1
-
-
+	for (int i = 0; i < arr.GetSize(); i++)
+	{
+		cout << arr[i] << " ";
+	}
 
 	return 0;
 }
