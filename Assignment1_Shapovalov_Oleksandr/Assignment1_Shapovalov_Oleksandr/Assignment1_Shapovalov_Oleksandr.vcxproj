@@ -127,11 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Array.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="OrderedArray.cpp" />
     <ClCompile Include="UnorderedArray.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Array.h" />
     <ClInclude Include="OrderedArray.h" />
     <ClInclude Include="UnorderedArray.h" />
   </ItemGroup>
